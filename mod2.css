@@ -1,13 +1,21 @@
 @media (min-width: 992px) {
   .para1 {
-    width: 30%;
+    width: 32%;
   }
   .para2 {
-    width: 30%;
+    width: 32%;
   }
   .para3 {
-    width: 30%;
+    width: 32%;
   }
+  .inner
+    {
+	background-color:pink;
+	border: 1px solid black;
+    position:absolute;
+    left:85%;
+    top:-8%;
+     } 
   
 }
 @media(min-width:768px) and (max-width: 991px)
@@ -21,8 +29,18 @@
 		float :right;
 	}
 	.para3{
-		width:90%;
+		width:91%;
 	}
+    .inner
+    {
+	background-color:pink;
+	border: 1px solid black;
+    position:absolute;
+    left:86%;
+    top:-10%;
+     } 
+	
+
 
 		
 
@@ -30,31 +48,43 @@
 @media(max-width: 767px)
 {
     .para1{
-		width:80%;
+		width:99%;
 	}
 	.para2{
-		width:80%;
+		width:99%;
 	}
 	.para3{
-		width:80%;
+		width:99%;
 	}
+	.inner
+    {
+	background-color:pink;
+	border: 1px solid black;
+    position:absolute;
+    left:90%;
+    top:-14%;
+	
+
+
+   }
 
 }
 .div
 {
 
-	position: relative;
+	//position: relative;
 	border :10px;
+	
 }
 .para1 , .para2 ,.para3
 {
 	background-color: grey;
     box-sizing: border-box;
-    
-     border: 5px solid black;
-    padding: 50px;
+    text-align: center;
+     border: 1px solid black;
+    padding: 5%;
     float: left;
-    margin : 5px;
+    margin : 0.5%;
     position:relative;
 
 
@@ -62,10 +92,10 @@
 .inner
 {
 	background-color:pink;
-	border: 5px solid black;
+	border: 1px solid black;
     position:absolute;
-    left:80%;
-    top:0;
+    //left:90%;
+    //top:0%;
 	
 
 
